@@ -5,6 +5,8 @@
 #include "Lexer.h"
 #include "Token.h"
 #include "ArgChecker.h"
+#include "Command.h"
+#include "Parser.h"
 
 using namespace std;
 
@@ -21,8 +23,8 @@ string& fileToString(const string& filename) {
 int main(const int argc, const char** argv) {
 	ArgChecker().checkArgs(argc, argv);
 	Lexer lexer(fileToString(argv[1]));
-	vector<Token> tokens = lexer.tokenize();
-	for (auto token : tokens) {
-		cout << token.toString() << endl;
+	vector<Command*> commands = Parser(lexer.tokenize()).parse();
+	for (auto command : commands) {
+		command->execute();
 	}
 }
