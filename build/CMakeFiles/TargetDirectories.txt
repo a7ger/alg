@@ -1,3 +1,0 @@
-/home/zack/Documents/alg/build/CMakeFiles/rebuild_cache.dir
-/home/zack/Documents/alg/build/CMakeFiles/alg.dir
-/home/zack/Documents/alg/build/CMakeFiles/edit_cache.dir
