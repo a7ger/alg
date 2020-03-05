@@ -4,11 +4,16 @@ This is mostly for me to practice C++. Nothing more. Not intended for any other 
 
 Only tested in Ubuntu 18.04
 
-build with `make` in "build" directory
+## Quick Start
 
-run with `./alg [file.alg]`
+- download or clone repo. 
+- `mkdir build && cd build`
+- `sudo snap install cmake`
+- `cmake ../`
+- `make`
+- `./alg ../example.alg`
 
-alg will interpret your source file "file.alg" and execute it's code.
+alg will interpret your source file "example.alg" and execute it's code.
 
 example:
 
