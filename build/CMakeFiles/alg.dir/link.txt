@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/alg.dir/main.cpp.o CMakeFiles/alg.dir/PrintCommand.cpp.o CMakeFiles/alg.dir/Token.cpp.o CMakeFiles/alg.dir/Parser.cpp.o  -o alg 

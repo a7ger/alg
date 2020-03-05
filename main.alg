@@ -1,2 +1,2 @@
-print/"yo what's up")
+print("yo what's up")
 

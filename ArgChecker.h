@@ -13,8 +13,8 @@ public:
 	~ArgChecker(){}
 
 	void checkArgs(const int& argc, const char** argv) {
-		string filename = argv[1];
 		checkArgc(argc);
+		string filename = argv[1];
 		checkFileExtenstion(filename);
 		checkFileExistance(filename);
 	}
